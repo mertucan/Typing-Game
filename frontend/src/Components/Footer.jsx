@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="w-full mt-10 mb-3 xl:mt-0 xl:absolute xl:bottom-0 flex justify-center">
       <div>
         <div className="">
-          <p className="text-sm font-medium text-purple-500">
+          <p className="text-sm font-medium text-purple-700">
             <a
               href="https://github.com/mertucan"
               rel="noopener noreferrer"
