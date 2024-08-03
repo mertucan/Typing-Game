@@ -3,14 +3,13 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import InputContainer from "./Components/InputContainer";
 import Podium from "./Components/Podium";
-import LanguageSelector from "./Components/LanguageSelector";
 import WordContainer from "./Components/WordContainer";
 import Result from "./Components/Result";
 import Timer from "./Components/Timer";
 import RestartButton from "./Components/RestartButton";
 import Records from "./Components/Records";
 import { shuffleWord } from "../utils/shuffleWord";
-import "../public/index.css"; // Tailwind CSS dosyanızın doğru yüklendiğinden emin olun
+import "../public/index.css"; // Tailwind
 
 const App = () => {
   const [words, setWords] = useState([""]);

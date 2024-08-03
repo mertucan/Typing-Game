@@ -13,7 +13,7 @@ export const shuffleWord = (maxWord, language) => {
     case "es":
       shuffledWord = spanish.slice(0);
       break;
-    case "gr":
+    case "de":
       shuffledWord = german.slice(0);
       break;
     default:
