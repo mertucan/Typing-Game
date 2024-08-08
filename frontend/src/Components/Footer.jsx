@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="w-full mt-10 mb-3 xl:mt-0 xl:absolute xl:bottom-0 flex justify-center">
       <div>
-        <div className="">
+        <div>
           <p className="text-sm font-medium text-purple-700">
             <a
               href="https://github.com/mertucan"

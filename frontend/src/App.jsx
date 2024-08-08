@@ -10,6 +10,7 @@ import RestartButton from "./Components/RestartButton";
 import Records from "./Components/Records";
 import { shuffleWord } from "../utils/shuffleWord";
 import "../public/index.css"; // Tailwind
+import { Typing } from "./Components/Typing";
 
 const App = () => {
   const [words, setWords] = useState([""]);
@@ -210,6 +211,7 @@ const App = () => {
         </div>
       </div>
       <Footer />
+      <Typing />
     </>
   );
 };
